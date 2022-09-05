@@ -471,7 +471,10 @@ img:hover{
     background-color: #e2f5f5;
 }
 
-
+#cancel{
+    position: absolute;
+    display: none;
+}
 
 
 
@@ -656,7 +659,7 @@ img:hover{
         background-color: white;
         padding: 12px;
         line-height: 40px;
-        height: 1000vh;
+        height: 100%;
         position: absolute;
         width: 100%;
         z-index: 2;
@@ -668,9 +671,7 @@ img:hover{
     }
 
 
-    .estate-bar:hover .bar-background + .mobile-menu{
-        display: block;
-    }
+    
 
     .abso-bar{
         position: relative;
@@ -736,6 +737,6 @@ img:hover{
 
     .discovery-home{
         width: 100%;
-        padding: git0px;
+        padding: 0px;
     }
 }
